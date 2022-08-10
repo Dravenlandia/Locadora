@@ -1,0 +1,725 @@
+*{
+	margin: 0;
+}
+body{
+	background-color: black;
+	font-family: arial;
+}
+#cabecario{
+	position: absolute;
+	background-color: #5051D4;
+	height: 10%;
+	width: 100%;
+	top: 0;
+}
+.sinopse{
+	position: absolute;
+	right: 5%;
+	top: 30%;
+    width: 45%;
+}
+.elenco1{
+	position: absolute;
+	top: 100%;
+}
+.elenco2{
+	position: relative;
+	left: 95%;
+	transform: translate(0%,-110%);
+}
+.comentarios{
+	left: 100%;
+	position: relative;
+	width: 250%;
+	height: 200px;
+}
+.img{
+	width: 500px;
+	height: 200px;
+}
+#filmes{
+	position: absolute;
+	top: 30%;
+	width: 100%;
+}
+#filmes > a + a{
+	margin-left: 3%;
+}
+#cabecario > a{
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+.cadastroOp{
+	position: absolute;
+	right: 15%;
+	bottom: 30%;
+}
+.listarOp{
+	position: absolute;
+	right: 5%;
+	bottom: 30%;
+}
+#cabecario + h2{
+	position: absolute;
+	top: 20%;
+	color: white;
+	margin-left: 2%;
+}
+table{
+  border-collapse: collapse;
+	color: white;
+	width: 100%;
+}
+td{
+  border: 1px solid #5051D4;
+  text-align: center;
+}
+#divListaFunc{
+  display: none;
+	width: 45%;
+	height: 100%;
+	left: 0;
+	border: 1px solid black;
+	overflow-y: scroll;
+	border: 1px solid #5051D4;
+}
+#divListaCliente{
+  display: none;
+	width: 45%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	border: 1px solid black;
+	overflow-y: scroll;
+	border: 1px solid #5051D4;
+}
+#cadastro{
+  position: absolute;
+  background-color: #5051D4;
+  width: 35%;
+  height: 85%;
+  top: 7.5%;
+  left: 32.5%;
+  border: 1px solid black;
+	border-radius: 10px;
+}
+input[name = 'nome']{
+  position: absolute;
+  border-radius: 5px;
+  bottom: 67%;
+  width: 80%;
+  left: 10%;
+  height: 6%;
+}
+input[name = 'id']{
+  position: absolute;
+  border-radius: 5px;
+  bottom: 58%;
+  width: 80%;
+  left: 10%;
+  height: 6%;
+}
+input[name = 'username']{
+  position: absolute;
+  border-radius: 5px;
+  bottom: 49%;
+  width: 80%;
+  left: 10%;
+  height: 6%;
+}
+input[name = 'datanasc']{
+  position: absolute;
+  border-radius: 5px;
+  bottom: 49%;
+  width: 80%;
+  left: 10%;
+  height: 6%;
+}
+input[name = 'cpf']{
+  position: absolute;
+  border-radius: 5px;
+  bottom: 39%;
+  width: 80%;
+  left: 10%;
+  height: 6%;
+}
+input[name = 'username']{
+  position: absolute;
+  border-radius: 5px;
+  bottom: 30%;
+  width: 80%;
+  left: 10%;
+  height: 6%;
+}
+input[name = 'senha']{
+  position: absolute;
+  border-radius: 5px;
+  bottom: 21%;
+  width: 80%;
+  left: 10%;
+  height: 6%;
+}
+select[name = 'tipo']{
+  position: absolute;
+  border-radius: 5px;
+  bottom: 13%;
+  width: 80%;
+  left: 10%;
+  height: 6%;
+}
+.botaoCadastrar{
+  position: absolute;
+  border-radius: 5px;
+  bottom: 5%;
+  width: 80%;
+  left: 10%;
+  height: 6%;
+	background-color: white;
+	border: none;
+}
+#aviso{
+  position: absolute;
+  width: 50%;
+  height: 40%;
+  background-color: #5051D4;
+  top: 30%;
+  left: 25%;
+  border-radius: 10px;
+	text-align: center;
+}
+#aviso > h1{
+	margin-top: 5%;
+}
+#aviso > button{
+  position: absolute;
+  border-radius: 5px;
+  width: 80%;
+  height: 12%;
+  bottom: 10%;
+  left: 10%;
+	border: none;
+	color: #5051D4;
+	font-weight: bold;
+}
+#opListar{
+  position: absolute;
+  top: 0;
+	width: 100%;
+	height: 8%;
+  background-color: #5051D4;
+}
+#opListar > center > button{
+	margin-top: 1%;
+  width: 20%;
+	height: 100%;
+	font-weight: bold;
+	color: #5051D4;
+}
+#cadastro > h1{
+	color: white;
+	text-align: center;
+	margin-top: 6%;
+}
+.tabelasLista{
+	position: absolute;
+	width: 100%;
+	height: 80%;
+	bottom: 0;
+}
+.funcionario_h2{
+	position: absolute;
+	top: -8%;
+	left: 15%;
+	color: white;
+}
+.clientes_h2{
+	position: absolute;
+	top: -8%;
+	right: 20%;
+	color: white;
+}
+.sobrenos{
+	position: absolute;
+	left: 13%;
+	bottom: 30%;
+}
+.suporte{
+	position: absolute;
+	left: 5%;
+	bottom: 30%;
+}
+textarea[name = Texto]{
+	position: absolute;
+	bottom: 35%;
+	width: 80%;
+	left: 10%;
+	height: 30%;
+}
+input[name=Email]{
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	width: 80%;
+	height: 10%;
+}
+.enviar{
+	width: 80%;
+	height: 12%;
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+}
+.poster{
+    position: absolute; 
+    top: 20%; 
+    left: 10%;
+    height: 50%;
+    width: 20%;
+}
+.sinopse > p{
+    text-align: justify;
+}
+#cadOp{
+	position: absolute;
+	width: 50%;
+	height: 40%;
+	background-color: #5051D4;
+	top: 30%;
+	left: 25%;
+	border-radius: 10px;
+	text-align: center;
+	display: none;
+
+}
+#cadOp > button[onclick = "showAndCloseDiv('cadOp')"]{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: red;
+	color: white;
+	border: none;
+	width: 5%;
+	height: 10%;
+	border-radius: 10%;
+}
+#cadOp > button[onclick = "goTo('/cadFilme')"]{
+	position: absolute;
+	border-radius: 5px;
+	width: 80%;
+	height: 12%;
+	bottom: 10%;
+	left: 10%;
+	border: none;
+	color: #5051D4;
+	font-weight: bold;
+}
+#cadOp > button[onclick = "goTo('/cadCliente')"]{
+	position: absolute;
+	border-radius: 5px;
+	width: 80%;
+	height: 12%;
+	bottom: 30%;
+	left: 10%;
+	border: none;
+	color: #5051D4;
+	font-weight: bold;
+}
+#cadOp > button[onclick = "goTo('/cadLoc')"]{
+	position: absolute;
+	border-radius: 5px;
+	width: 80%;
+	height: 12%;
+	bottom: 50%;
+	left: 10%;
+	border: none;
+	color: #5051D4;
+	font-weight: bold;
+}
+#listOp{
+	position: absolute;
+	width: 50%;
+	height: 40%;
+	background-color: #5051D4;
+	top: 30%;
+	left: 25%;
+	border-radius: 10px;
+	text-align: center;
+	display: none;
+}
+#listOp > button[onclick = "showAndCloseDiv('listOp')"]{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: red;
+	color: white;
+	border: none;
+	width: 5%;
+	height: 10%;
+	border-radius: 10%;
+}
+#listOp > button[onclick = "goTo('/Filmes')"]{
+	position: absolute;
+	border-radius: 5px;
+	width: 80%;
+	height: 12%;
+	bottom: 10%;
+	left: 10%;
+	border: none;
+	color: #5051D4;
+	font-weight: bold;
+}
+#listOp > button[onclick = "goTo('/Clientes')"]{
+	position: absolute;
+	border-radius: 5px;
+	width: 80%;
+	height: 12%;
+	bottom: 30%;
+	left: 10%;
+	border: none;
+	color: #5051D4;
+	font-weight: bold;
+}
+#listOp > button[onclick = "goTo('/Locacoes')"]{
+	position: absolute;
+	border-radius: 5px;
+	width: 80%;
+	height: 12%;
+	bottom: 50%;
+	left: 10%;
+	border: none;
+	color: #5051D4;
+	font-weight: bold;
+}
+#cabecario > button{
+	color: white;
+	border: none;
+	background-color: #5051D4;
+	font-weight: bold;
+	font-size: 16px;
+}
+.sair{
+	position: absolute;
+	left: 6%;
+	bottom: 30%;
+}
+#cadClientes{
+	position: absolute;
+	background-color: #5051D4;
+	width: 35%;
+	height: 80%;
+	top: 7.5%;
+	left: 32.5%;
+	border: 1px solid black;
+	  border-radius: 10px;
+  }
+  #cadClientes input[name = 'nome']{
+	position: absolute;
+	border-radius: 5px;
+	bottom: 67%;
+	width: 80%;
+	left: 10%;
+	height: 6%;
+  }
+  #cadClientes input[name = 'dtnasc']{
+	position: absolute;
+	border-radius: 5px;
+	bottom: 58%;
+	width: 80%;
+	left: 10%;
+	height: 6%;
+  }
+  #cadClientes > h1{
+	  color: white;
+	  text-align: center;
+	  margin-top: 12%;
+  }
+  .cadClientesbotaoCadastrar{
+	  position: absolute;
+	  border-radius: 5px;
+	  bottom: 15%;
+	  width: 80%;
+	  left: 10%;
+	  height: 6%;
+		background-color: white;
+		border: none;
+  }
+  .cadClientesbotaoVoltar{
+	  position: absolute;
+	  border-radius: 5px;
+	  bottom: 5%;
+	  width: 80%;
+	  left: 10%;
+	  height: 6%;
+		background-color: white;
+		border: none;
+  }
+  #registro{
+	  position: absolute;
+	  background-color: #5051D4;
+	  width: 35%;
+	  height: 85%;
+	  top: 7.5%;
+	  left: 32.5%;
+	  border: 1px solid black;
+		border-radius: 10px;
+  }
+  #registro input[name = 'nome']{
+	  position: absolute;
+	  border-radius: 5px;
+	  bottom: 67%;
+	  width: 80%;
+	  left: 10%;
+	  height: 6%;
+  }
+  #registro input[name = 'username']{
+	  position: absolute;
+	  border-radius: 5px;
+	  bottom: 58%;
+	  width: 80%;
+	  left: 10%;
+	  height: 6%;
+  }
+  #registro input[name = 'password']{
+	  position: absolute;
+	  border-radius: 5px;
+	  bottom: 49%;
+	  width: 80%;
+	  left: 10%;
+	  height: 6%;
+  }
+  #registro > h1{
+	  color: white;
+	  text-align: center;
+	  margin-top: 12%;
+  }
+  .botaoregistro{
+	position: absolute;
+	border-radius: 5px;
+	bottom: 5%;
+	width: 80%;
+	left: 10%;
+	height: 6%;
+	  background-color: white;
+	  border: none;
+  }
+  #login{
+	position: absolute;
+	background-color: #5051D4;
+	width: 35%;
+	height: 80%;
+	top: 7.5%;
+	left: 32.5%;
+	border: 1px solid black;
+	  border-radius: 10px;
+  }
+  #login input[name = 'username']{
+	position: absolute;
+	border-radius: 5px;
+	bottom: 67%;
+	width: 80%;
+	left: 10%;
+	height: 6%;
+  }
+  #login input[name = 'password']{
+	position: absolute;
+	border-radius: 5px;
+	bottom: 58%;
+	width: 80%;
+	left: 10%;
+	height: 6%;
+  }
+  #login > h1{
+	  color: white;
+	  text-align: center;
+	  margin-top: 12%;
+  }
+  .loginbutão{
+	  position: absolute;
+	  border-radius: 5px;
+	  bottom: 15%;
+	  width: 80%;
+	  left: 10%;
+	  height: 6%;
+		background-color: white;
+		border: none;
+  }
+  .link{
+	position: absolute;
+	top: 43%;
+	left: 10.5%;
+  }
+.listacliente{
+	position: absolute;
+	overflow-y: scroll;
+	height: 80%;
+	width: 48%;
+	top: 2%;
+	right: 0;
+	border: 2px solid #5051D4;
+	border-radius: 8px;
+}
+.Clientecad{
+	position: absolute;
+	color: #5051D4;
+	top: 5%;
+	left: 10%;
+}
+.Listadeloc{
+	position: absolute;
+	overflow-y: scroll;
+	height: 80%;
+	width: 48%;
+	top: 2%;
+	right: 0;
+	border: 2px solid #5051D4;
+	border-radius: 8px;
+}
+.Loccasd{
+	position: absolute;
+	color: #5051D4;
+	top: 5%;
+	left: 10%;
+}
+.painel {
+    background-color: #5051D4;
+    position: absolute;
+    width: 35%;
+    height: 85%;
+    top: 7.5%;
+    left: 32.5%;
+    border: 1px solid black;
+	border-radius: 10px;
+}
+
+input[name = 'titulo']{
+    position: absolute;
+    border-radius: 5px;
+    bottom: 67%;
+    width: 80%;
+    left: 10%;
+    height: 6%;
+}
+
+input[name = 'poster']{
+    position: absolute;
+    border-radius: 5px;
+    bottom: 58%;
+    width: 80%;
+    left: 10%;
+    height: 6%;
+}
+
+textarea[name = 'sinopse']{
+    position: absolute;
+    border-radius: 5px;
+    bottom:49%;
+    width: 80%;
+    left: 10%;
+    height: 6%;
+}
+
+#cadastrar {
+    position: absolute;
+    border-radius: 5px;
+    bottom: 39%;
+    width: 80%;
+    left: 10%;
+    height: 6%;
+}
+
+#voltar {
+    position: absolute;
+    border-radius: 5px;
+    bottom: 29%;
+    width: 80%;
+    left: 10%;
+    height: 6%;
+}
+
+.painel > h1{
+	color: white;
+	text-align: center;
+	margin-top: 6%;
+}
+
+.locacao {
+    background-color: #5051D4;
+    position: absolute;
+    width: 35%;
+    height: 85%;
+    top: 7.5%;
+    left: 32.5%;
+    border: 1px solid black;
+	border-radius: 10px;
+}
+
+input[name = 'dtloc']{
+    position: absolute;
+    border-radius: 5px;
+    bottom: 67%;
+    width: 80%;
+    left: 10%;
+    height: 6%;
+}
+
+input[name = 'clicod']{
+    position: absolute;
+    border-radius: 5px;
+    bottom: 57%;
+    width: 80%;
+    left: 10%;
+    height: 6%;
+}
+
+input[name = 'filcod']{
+    position: absolute;
+    border-radius: 5px;
+    bottom: 47%;
+    width: 80%;
+    left: 10%;
+    height: 6%;
+}
+
+input[name = 'preco']{
+    position: absolute;
+    border-radius: 5px;
+    bottom: 37%;
+    width: 80%;
+    left: 10%;
+    height: 6%;
+}
+
+button[name = 'botao']{
+    position: absolute;
+    border-radius: 5px;
+    bottom: 28%;
+    width: 80%;
+    left: 10%;
+    height: 6%;
+}
+
+.locacao > h1{
+	color: white;
+	text-align: center;
+	margin-top: 6%;
+}
+
+.listaFilmes {
+    background-color: #5051D4;
+    border: 5px solid black;
+}
+#listarfilmes{
+	position: absolute;
+	top: 30%;
+	width: 100%;
+}
+#imgs{
+	max-width:600px;
+    max-height:150px;
+}
+#organizar{
+	display: inline-block;
+	padding-top: 2%;
+	padding-left: 2%;
+}

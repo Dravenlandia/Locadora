@@ -1,0 +1,16 @@
+{
+    "name": "romeritocampos/auth",
+    "description": "Pacote com exemplo de autenticação com login e senha",
+    "autoload": {
+        "psr-4": {
+            "Romeritocampos\\Auth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Romerito Campos",
+            "email": "romerito.campos@gmail.com"
+        }
+    ],
+    "require": {}
+}

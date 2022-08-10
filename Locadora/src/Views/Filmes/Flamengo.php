@@ -1,0 +1,1 @@
+<html lang='pt-br'><head><title>Flamengo</title><script src='../../../Locadora.js'></script><link rel='stylesheet' href='../../../Locadora.css'></head><body style='background-color: #5051D4;'><img class ='poster' src='../../imagens/fcfa95689d58f97072dd4ca1f693993b.png'><div class = 'sinopse'><p>Mundo aventuras</p></div> <button onclick = 'back1()'>Voltar</button></body></html>

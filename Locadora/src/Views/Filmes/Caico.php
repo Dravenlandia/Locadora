@@ -1,0 +1,1 @@
+<html lang='pt-br'><head><title>Caico</title><script src='../../../Locadora.js'></script><link rel='stylesheet' href='../../../Locadora.css'></head><body style='background-color: #5051D4;'><img class ='poster' src='../../imagens/fa1f477ad70b056ba367d932b8e7b96b.png'><div class = 'sinopse'><p>diario de um banana</p></div> <button onclick = 'back1()'>Voltar</button></body></html>
